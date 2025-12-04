@@ -63,7 +63,6 @@ const SignIn = () => {
         otp : OTP,
       });
       console.log(response, "dsfdsfds");
-      console.log("user added to localstoarage")
       console.log(response.data.user);
       localStorage.setItem('user', JSON.stringify(response.data.user));
 
